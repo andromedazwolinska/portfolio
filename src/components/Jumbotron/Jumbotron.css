@@ -1,0 +1,23 @@
+.jumbotron {
+  background-image: url(../../images/frontend.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  /* color: white; */
+  box-shadow: inset 0px -5px 10px 0px #212529;
+}
+
+.display-3 {
+  width: auto;
+  max-width: fit-content;
+  background-color: white;
+  /* color: #aaa; */
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 12px 0px 20px 0px #212529;
+}
+@media (max-width: 520px) {
+  .display-3 {
+    font-size: 3rem;
+  }
+}
